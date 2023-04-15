@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1c2331;
+    color: #ffffff ;
+}
+
+.banner {
+    background-image: url('https://loscripts.files.wordpress.com/2023/03/loscripts-pro-2.jpg?w=985');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner h1 {
+    font-size: 78px;
+    text-align: center;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    padding: 20px;
+    background-color: #1c2331;
+}
+
+.content pre {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+    margin: 0;
+}
+
+.content p {
+    margin: 0 0 10px 0;
+    padding: 0;
+    line-height: 1.5;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.content a {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer p {
+    margin: 0;
+    padding: 0;
+}
+
+.footer a {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+img {
+  float: left; /* pour placer l'image à gauche */
+  margin-right: 20px; /* pour ajouter de l'espace entre l'image et le texte */
+}
+.footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    clear: both; /* ajout de la propriété clear pour résoudre le problème */
+}
+
+h2
+{
+  color:yellow ;
+}
+.content pre {
+    color: green;
+}
+p1
+{
+  color: red;
+}
+
+		.dropdown {
+			position: relative;
+			display: inline-block;
+			cursor: pointer;
+			margin-right: 10px;
+		}
+		.dropdown .bar {
+			height: 5px;
+			background-color: lightblue;
+			margin-bottom: 5px;
+		}
+		.dropdown-content {
+			display: none;
+			position: absolute;
+			background-color: #f9f9f9;
+			min-width: 160px;
+			padding: 12px 16px;
+			z-index: 1;
+		}
+    hr
+    {
+  border: none;
+  height: 5px;
+  background-color: lightblue;
+  width: 50px;
+  }
+
+		.dropdown:hover .dropdown-content {
+			display: block;
+		}
+
+.content caca {
+    background-color: green;
+    color: #ffffff;
+    padding: 19px;
+    margin:O;
+}
